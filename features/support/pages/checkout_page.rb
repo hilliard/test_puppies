@@ -1,5 +1,9 @@
+require_relative 'error_panel'
+
 class CheckoutPage
   include PageObject
+  include DataMagic
+  include ErrorPanel
 
   DEFAULT_DATA2 = {
       'name' => 'cheezy',
@@ -24,7 +28,8 @@ class CheckoutPage
 
 
   def checkout(data = {})
-    populate_page_with DEFAULT_DATA.merge(data)
+    #populate_page_with DEFAULT_DATA.merge(data)
+    populate_page_with data_for(:checkout_page, data)
     place_order
   end
 
