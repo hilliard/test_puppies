@@ -119,3 +119,18 @@ And(/^I complete the adoption with:$/) do |table|
   # table is a Cucumber::Ast::Table
   on(CheckoutPage).checkout(table.hashes.last)
 end
+
+And(/^I complete the adoption using a Credit card$/) do
+  on(CheckoutPage).checkout('pay_type' => 'Credit card')
+end
+
+And(/^I complete the adoption$/) do
+    on(CheckoutPage).checkout
+end
+
+When(/^I complete the adoption of a puppy$/) do
+  on(HomePage).select_puppy
+  on(DetailsPage).add_to_cart
+  on(ShoppingCartPage).proceed_to_checkout
+  on(CheckoutPage).checkout
+end

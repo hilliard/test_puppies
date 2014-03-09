@@ -6,11 +6,15 @@ class HomePage
   divs(:name, :class => 'name')
   buttons(:view_detail, :value => 'View Details')
 
-  def select_puppy(name)
+  def select_puppy2(name)
     index = index_for(name)
     view_detail_elements[index].click
   end
 
+  def select_puppy(name = 'Brook')
+    index = index_for(name)
+    button_element(:value => 'View Details', :index => index).click
+  end
 
   private
 
