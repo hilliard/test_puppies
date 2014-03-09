@@ -68,5 +68,6 @@ DEPENDENCIES
   faker
   page-object
   rake
+  require_all
   rspec
   testgen

@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/test_puppies@adopting_puppies__test_puppies.coverage" NAME="adopting_puppies: test_puppies Coverage Results" MODIFIED="1394383093174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
+    <SUITE FILE_PATH="coverage/test_puppies@adopting_puppies__test_puppies.coverage" NAME="adopting_puppies: test_puppies Coverage Results" MODIFIED="1394383963846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@making_cheese__test_puppies.coverage" NAME="making_cheese: test_puppies Coverage Results" MODIFIED="1393948393377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@getting_one_puppy__test_puppies.coverage" NAME="getting_one_puppy: test_puppies Coverage Results" MODIFIED="1393708761810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@adopting_one_puppy__test_puppies.coverage" NAME="adopting_one_puppy: test_puppies Coverage Results" MODIFIED="1393707699745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
@@ -70,7 +70,7 @@
       <file leaf-file-name="adopting_puppies_steps.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/adopting_puppies_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="2" selection-start="5096" selection-end="5096" vertical-scroll-proportion="0.76765376" vertical-offset="2400" max-vertical-offset="2839">
+            <state line="158" column="1" selection-start="5063" selection-end="5063" vertical-scroll-proportion="0.5353075" vertical-offset="2451" max-vertical-offset="2890">
               <folding />
             </state>
           </provider>
@@ -147,8 +147,6 @@
         <option value="$PROJECT_DIR$/features/support/pages/shopping_cart_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/shopping_cart.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/details_page.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/config/data/default.yml" />
         <option value="$PROJECT_DIR$/features/support/pages/error_panel.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/checkout_page.rb" />
@@ -158,14 +156,16 @@
         <option value="$PROJECT_DIR$/features/support/pages/side_menu_panel.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/landing_page.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/process_puppy_page.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/adopting_puppies_steps.rb" />
         <option value="$PROJECT_DIR$/features/adopting_puppies.feature" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/adopting_puppies_steps.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="703" />
-    <option name="y" value="131" />
+    <option name="x" value="580" />
+    <option name="y" value="62" />
     <option name="width" value="1241" />
     <option name="height" value="924" />
   </component>
@@ -623,7 +623,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="703" y="131" width="1241" height="924" extended-state="0" />
+    <frame x="580" y="62" width="1241" height="924" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -924,20 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/data/default.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="47" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
@@ -1010,9 +996,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="148" selection-end="148" vertical-scroll-proportion="0.38724375" vertical-offset="0" max-vertical-offset="439">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="395" selection-end="395" vertical-scroll-proportion="0.53861386" vertical-offset="0" max-vertical-offset="505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/adopting_puppies_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="2" selection-start="5096" selection-end="5096" vertical-scroll-proportion="0.76765376" vertical-offset="2400" max-vertical-offset="2839">
+        <state line="158" column="1" selection-start="5063" selection-end="5063" vertical-scroll-proportion="0.5353075" vertical-offset="2451" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
