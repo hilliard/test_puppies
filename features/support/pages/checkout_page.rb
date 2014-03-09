@@ -1,9 +1,8 @@
 class CheckoutPage
-
   include PageObject
 
   DEFAULT_DATA = {
-      'name' => 'cheeszy',
+      'name' => 'cheezy',
       'address' => '123 Main',
       'email' => 'cheezy@example.com',
       'pay_type' => 'Purchase order'
@@ -16,7 +15,13 @@ class CheckoutPage
   select_list(:pay_type, :id => "order_pay_type")
   button(:place_order, :value => "Place Order")
 
-  def checkout(data= {})
+
+  def checkout(data = {})
+    populate_page_with DEFAULT_DATA.merge(data)
+    place_order
+  end
+
+  def checkout2(data= {})
     data = DEFAULT_DATA.merge(data)
     self.name = data['name']
     self.address = data['address']
