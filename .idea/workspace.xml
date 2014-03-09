@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/test_puppies@adopting_puppies__test_puppies.coverage" NAME="adopting_puppies: test_puppies Coverage Results" MODIFIED="1394341770347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
+    <SUITE FILE_PATH="coverage/test_puppies@adopting_puppies__test_puppies.coverage" NAME="adopting_puppies: test_puppies Coverage Results" MODIFIED="1394380826918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@making_cheese__test_puppies.coverage" NAME="making_cheese: test_puppies Coverage Results" MODIFIED="1393948393377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@getting_one_puppy__test_puppies.coverage" NAME="getting_one_puppy: test_puppies Coverage Results" MODIFIED="1393708761810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
     <SUITE FILE_PATH="coverage/test_puppies@adopting_one_puppy__test_puppies.coverage" NAME="adopting_one_puppy: test_puppies Coverage Results" MODIFIED="1393707699745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test_puppies" />
@@ -29,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="checkout_page.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/pages/checkout_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,19 +49,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adopting_puppies.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="adopting_puppies.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/adopting_puppies.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="12" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1292">
+            <state line="70" column="60" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.88382685" vertical-offset="802" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adopting_puppies_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="adopting_puppies_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/adopting_puppies_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="30" selection-start="4558" selection-end="4558" vertical-scroll-proportion="0.6514806" vertical-offset="2128" max-vertical-offset="2584">
+            <state line="147" column="8" selection-start="4720" selection-end="4720" vertical-scroll-proportion="0.0" vertical-offset="2128" max-vertical-offset="2601">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matchers.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/matchers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="30" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -151,16 +151,17 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/config/data/default.yml" />
-        <option value="$PROJECT_DIR$/features/adopting_puppies.feature" />
         <option value="$PROJECT_DIR$/features/support/pages/error_panel.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/checkout_page.rb" />
+        <option value="$PROJECT_DIR$/features/support/matchers.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/adopting_puppies_steps.rb" />
+        <option value="$PROJECT_DIR$/features/adopting_puppies.feature" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
-    <option name="y" value="132" />
+    <option name="x" value="846" />
+    <option name="y" value="124" />
     <option name="width" value="1241" />
     <option name="height" value="924" />
   </component>
@@ -618,7 +619,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="132" width="1241" height="924" extended-state="0" />
+    <frame x="846" y="124" width="1241" height="924" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -627,11 +628,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28148773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28148773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40731707" sideWeight="0.50042266" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40731707" sideWeight="0.49957734" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40731707" sideWeight="0.49957734" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -949,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/adopting_puppies.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="12" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/error_panel.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="6" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
@@ -970,9 +964,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/matchers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/adopting_puppies_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="30" selection-start="4558" selection-end="4558" vertical-scroll-proportion="0.6514806" vertical-offset="2128" max-vertical-offset="2584">
+        <state line="147" column="8" selection-start="4720" selection-end="4720" vertical-scroll-proportion="0.0" vertical-offset="2128" max-vertical-offset="2601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/adopting_puppies.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="60" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.88382685" vertical-offset="802" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>

@@ -143,5 +143,6 @@ When(/^I checkout leaving the name field blank$/) do
 end
 
 Then(/^I should see the error message "([^"]*)"$/) do |msg|
-  @current_page.error_messages.should include msg
+ # @current_page.error_messages.should include msg
+  @current_page.should have_error_message msg
 end
