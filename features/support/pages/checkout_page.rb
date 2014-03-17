@@ -5,19 +5,19 @@ class CheckoutPage
   include DataMagic
   include ErrorPanel
 
-  DEFAULT_DATA2 = {
-      'name' => 'cheezy',
-      'address' => '123 Main',
-      'email' => 'cheezy@example.com',
-      'pay_type' => 'Purchase order'
-  }
+#  DEFAULT_DATA2 = {
+#      'name' => 'cheezy',
+#      'address' => '123 Main',
+#      'email' => 'cheezy@example.com',
+#      'pay_type' => 'Purchase order'
+#  }
 
-  DEFAULT_DATA = {
-    'name' => Faker::Name.name,
-    'address' => Faker::Address.street_address,
-    'email' => Faker::Internet.email,
-    'pay_type' => 'Credit card'
-   }
+#  DEFAULT_DATA = {
+#    'name' => Faker::Name.name,
+#    'address' => Faker::Address.street_address,
+#    'email' => Faker::Internet.email,
+#    'pay_type' => 'Credit card'
+#   }
 
 
   text_field(:name, :id => "order_name")

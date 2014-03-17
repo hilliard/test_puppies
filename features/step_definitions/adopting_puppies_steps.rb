@@ -154,7 +154,7 @@ Given(/^I have a pending adoption for "([^"]*)"$/) do |name|
   #on(DetailsPage).add_to_cart
   #on(ShoppingCartPage).proceed_to_checkout
   #on(CheckoutPage).checkout('name' => name)
-  navigate_to(CheckoutPage).checkout('name' => name)
+  #navigate_to(CheckoutPage).checkout('name' => name)
   order = build(:order, :name => name)
   create(:adoption, :order => order)
 end
@@ -165,6 +165,8 @@ When(/^I process that adoption$/) do
   on(LandingPage).adoptions
   on(ProcessPuppyPage).process_first_puppy
 end
+
+
 # database Create
 Given(/^I know how many orders I have$/) do
   @number_orders = Order.count
@@ -218,7 +220,7 @@ Then(/^I should have a record for "([^"]*)"$/) do |name|
   order.should_not be_nil
 end
 
-And(/^I should not have a record for "([^"]*)"$/) do |arg|
+And(/^I should not have a record for "([^"]*)"$/) do |name|
   order = Order.find_by_name(name)
   order.should be_nil
 end
@@ -226,4 +228,12 @@ end
 When(/^I delete that order$/) do
   order = Order.find_by_name(@original_name)
   order.delete
+end
+
+Then(/^the adoption delivered on date should be set to the current time$/) do
+  # now = Time.now
+  adoption = Adoption.first
+  # adoption.delivered_on.should be <= now
+  # adoption.delivered_on.should be > now - 3
+  adoption.delivered_on.should be_on_or_near_the_time Time.now
 end

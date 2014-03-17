@@ -70,8 +70,9 @@ Feature: Adopting puppies
     When I checkout leaving the name field blank
     Then I should see the error message "Name can't be blank"
 
-  @wip
+
   Scenario: Verify message when adoption is processed
     Given I have a pending adoption for "Tom Jones"
     When I process that adoption
     Then I should see "Please thank Tom Jones for the order!"
+
