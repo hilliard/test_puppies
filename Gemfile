@@ -14,3 +14,6 @@ gem 'activerecord', '4.0.0'
 gem 'factory_girl'
 gem 'database_cleaner'
 gem 'sqlite3'
+
+gem 'nokogiri'
+gem 'builder'
