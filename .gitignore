@@ -25,3 +25,4 @@
 
 #ignore RubyMine files
 .idea/workspace.xml
+.idea/name.xml
