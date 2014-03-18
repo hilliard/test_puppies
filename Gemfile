@@ -17,3 +17,5 @@ gem 'sqlite3'
 
 gem 'nokogiri'
 gem 'builder'
+
+gem 'soap-object'

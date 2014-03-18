@@ -5,6 +5,7 @@ require 'data_magic'
 require 'require_all'
 require 'nokogiri'
 require 'builder'
+require 'soap-object'
 
 require_rel 'pages'
 
@@ -17,4 +18,6 @@ PageObject::PageFactory.routes = {
                  [ShoppingCartPage, :proceed_to_checkout],
                  [CheckoutPage, :checkout]],
 }
+
+World(SoapObject::Factory)
 
